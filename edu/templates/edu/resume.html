@@ -1,0 +1,38 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+<div class="container">
+    <h2 class="text-center mt-3 st-font">DIGVIJAY VYANKAT LOHAR</h2>
+    <div class="education">
+        <h3 class="section-title border-bottom pb-1">Education</h3>
+        <ul class="list-unstyled content-list">
+            <li><strong>Annasaheb Dange College of Engineering and Technology, Ashta</strong><br>
+                BTech, Computer Science and Engineering, First class with Distinction (2020-2024)
+            </li>
+            <li><strong>Sadguru Gadage Maharaj College, Karad</strong><br>
+                Higher Secondary: 68.15% (2018-2020)<br>
+                Second Secondary: 85.80% (2017-2018)
+            </li>
+        </ul>
+    </div>
+    <div class="internship">
+        <h3 class="section-title border-bottom pb-1">Internship</h3>
+        <ul class="list-unstyled content-list">
+            <li><strong>Python Stack Developer | Infosys Springboard | Remote</strong><br>
+                May-July 2024<br>
+                - Developed an automated system to extract text from scanned PDF documents.<br>
+                - Utilized Python libraries and tools for efficient text extraction and data processing.<br>
+                - Improved document handling accuracy and streamlined the text extraction workflow.
+            </li>
+        </ul>
+    </div>
+
+    <div class="contact-info text-center mt-5">
+        <p><i class="fas fa-map-marker-alt i-color"></i> <strong>Address:</strong> A/P Malharpeth Tal. Patan Dist. Satara</p>
+        <p><i class="fas fa-phone i-color"></i> <strong>Phone:</strong> <a href="tel:7277751007">7277751007</a></p>
+        <p><i class="fas fa-envelope i-color"></i> <strong>Email:</strong> <a href="mailto:digvijaylohar007@gmail.com">digvijaylohar007@gmail.com</a></p>
+        <p><i class="fab fa-linkedin i-color"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/digvijay-lohar-169230244" target="_blank">www.linkedin.com/in/digvijay-lohar-169230244</a></p>
+        <a href="{% static 'core/CV3.pdf' %}" class="btn btn-outline-warning my-3 mr-5" download>Download Resume</a>
+    </div>
+</div>
+{% endblock content %}

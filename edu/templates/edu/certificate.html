@@ -1,0 +1,39 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+<div class="container mt-2">
+    <h2 class="text-warning mb-2 border-bottom">CERTIFICATES</h2>
+    <div class="row text-white">
+        <div class="col-sm-4 mb-4 d-flex flex-column align-items-center">
+            <h4 class="text-center mb-2">NPTEL</h4>
+            <img src="{% static 'core/images/nptel.png' %}" alt="Certificate 1" class="img-fluid rounded shadow" style="max-height: 275px; width: auto;">
+        </div>
+        
+        <div class="col-sm-4 mb-4 d-flex flex-column align-items-center">
+            <h4>Infosys</h4>
+            <img src="{% static 'core/images/c1.png' %}" alt="Certificate 2" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-sm-4 mb-4 d-flex flex-column align-items-center">
+            <h4>Google Cloud</h4>
+            <img src="{% static 'core/images/googlecloud.png' %}" alt="Certificate 3" class="img-fluid rounded shadow" style="max-height: 275px; width: auto;">
+        </div>
+    </div>
+
+    <div class="row text-white">
+        <div class="col-sm-4 mb-4 d-flex flex-column align-items-center">
+            <h4>Infosys 3</h4>
+            <img src="{% static 'core/images/c1.png' %}" alt="Certificate 3" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-sm-4 mb-4 d-flex flex-column align-items-center">
+            <h4>Crash Course</h4>
+            <img src="{% static 'core/images/CrashCourse.png' %}" alt="Certificate 2" class="img-fluid rounded shadow" style="max-height: 275px; width: auto;">
+        </div>
+        
+        <div class="col-sm-4 mb-4 d-flex flex-column align-items-center">
+            <h4>HackerRank</h4>
+            <img src="{% static 'core/images/HackerRank.png' %}" alt="Certificate 1" class="img-fluid rounded shadow" style="max-height: 275px; width: auto;">
+        </div>
+    </div>
+    
+</div>
+{% endblock content %}

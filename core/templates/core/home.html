@@ -1,0 +1,42 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class="mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/images/20131044.jpg' %}" alt="Profile Image" class="img-thumbnail" width="250px"
+            height="150px">
+    </div>
+    <div class="mt-5 mx-5 text-justify text-white text-sm-dark">
+        <h1 class="mt-5 font-weight-bold st-font">Hello</h1>
+        <div class="px-4" style="line-height: 1rem;">
+            <p style="text-indent: 100px;">
+                I am <b class="text-warning">Digvijay Lohar</b>, a results-oriented and highly motivated IT professional
+                with a <b class="text-warning">B.Tech in engineering</b> and a strong foundation in technical, database,
+                and management skills.
+            </p>
+            <p>
+                Seeking a challenging role in a reputable organization to contribute to its growth while staying abreast
+                of emerging trends in the IT sector. Proficient in Python, C, C++, Java, HTML, CSS, JavaScript, jQuery
+                with hands-on experience in web and Android development. Proven ability in problem-solving, active
+                learning, and effective teamwork.
+            </p>
+            <p>
+                Accomplished various projects, including a Voting System, PDF security, RFID-based Door-lock system,
+                Dairy Product Sell System, a Micro project on Weather Prediction using Machine Learning, and a Mega
+                project on cloud-based skin disease detection using machine learning.
+            </p>
+            <p>
+                Possesses a solid understanding of MySQL and MongoDB databases. Holds certificates in Python for Data
+                Science from NPTEL, as well as achievements from HackerRank and Great Learning in various programming
+                domains.
+            </p>
+        </div>
+    </div>
+    <div>
+        <div class="text-center">
+            <a href="{% url 'resume' %}" class="btn btn-outline-warning my-3 mr-5">Hire me</a>
+            <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+        </div>
+    </div>
+</div>
+{% endblock content %}

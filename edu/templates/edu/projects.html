@@ -1,0 +1,42 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+<div class="container mt-5 mb-5">
+    <h2 class="text-warning mb-5 border-bottom mb-2">PROJECTS</h2>
+    <div class="row text-white">
+        <!-- Project 1 -->
+        <div class="col-sm-4 mb-4 d-flex flex-column align-items-center">
+            <h4 class="text-center mb-2">Cloud-based-skin-disease-detection-using-machine-learnig</h4>
+            <a href="#">
+                <img src="{% static 'core/images/projectskin.png' %}" alt="Project 1" class="img-fluid rounded shadow"
+                    style="max-height: 275px; width: auto;">
+            </a>
+            <a href="https://github.com/DigvijayLohar/Cloud-based-skin-disease-detection-using-machine-learnig.git"
+                class="btn btn-outline-warning my-3 mr-5">Link</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-sm-4 mb-4 d-flex flex-column align-items-center">
+            <h4 class="text-center mb-2">Image Uploader using Django</h4>
+            <a href="#">
+                <img src="{% static 'core/images/ProjectimgUploader.png' %}" alt="Project 2" class="img-fluid rounded shadow"
+                    style="max-height: 275px; width: auto;">
+            </a>
+            <a href="https://github.com/DigvijayLohar/Image-Uploader-Django.git"
+                class="btn btn-outline-warning my-3 mr-5">Link</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-sm-4 mb-4 d-flex flex-column align-items-center">
+            <h4 class="text-center mb-2">Automating bank check extraction from scanned PDF</h4>
+            <a href="#">
+                <img src="{% static 'core/images/projectAutoCheck.png' %}" alt="Project 3" class="img-fluid rounded shadow"
+                    style="max-height: 170px; width: auto;">
+            </a>
+            <a href="https://github.com/Springboard-Internship-2024/Automating-Bank-Check-Extraction-from-Scanned-PDFs_May_2024.git"
+                class="btn btn-outline-warning my-3 mr-5">Link</a>
+        </div>
+    </div>
+
+</div>
+{% endblock content %}

@@ -1,0 +1,17 @@
+.st-font{
+    font-family:"Satisfy";
+}
+html,body{
+    height: 100%;
+}
+.container-fluid{
+    height: 100%;
+}
+/* services */
+.i-color{
+    color:chartreuse
+}
+/* service subtitle */
+.ss-color{
+    color: silver;
+}
